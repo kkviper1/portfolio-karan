@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,46 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0e0e0e] text-[#ffffff] tracking-wide
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    @apply font-bold
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl
+  }
+
+  li {
+    @apply cursor-pointer
+  }
+
+  button {
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-white to-gray-600
+  }
+}
+
+@layer components {
+  .sidebar-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto bg-[#2f3136] text-green-500 hover:bg-green-500 hover:text-white
+    rounded-3xl hover:rounded-xl
+    transition-all duration-300 ease-linear;
+  }
+
+  .sidebar-tooltip{
+   @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md text-white bg-[#202225] text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
 }
