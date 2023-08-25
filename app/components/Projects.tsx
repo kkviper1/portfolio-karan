@@ -43,7 +43,7 @@ const Projects = () => {
                     <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                         <h3 className='text-2xl text-white tracking-wider text-center'>Website Element Detection using Object Detection Models</h3>
                         <p className='pb-4 pt-2 text-white text-center'>YOLO/SSD/RCNN</p>
-                        <Link href='/'>
+                        <Link href='/webproject'>
                             <p className='text-center py-3 rounded-lg bg-gray-900 text-white font-bold text-lg cursor-pointer'>More Info</p>
                         </Link>
                     </div>
@@ -54,7 +54,7 @@ const Projects = () => {
                     <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                         <h3 className='text-2xl text-white tracking-wider text-center'>Esports Data Analysis Using Big Data Tools</h3>
                         <p className='pb-4 pt-2 text-white text-center'>Power BI/Tabluea</p>
-                        <Link href='/'>
+                        <Link href='/esportsdaproject'>
                             <p className='text-center py-3 rounded-lg bg-gray-900 text-white font-bold text-lg cursor-pointer'>More Info</p>
                         </Link>
                     </div>
@@ -65,7 +65,7 @@ const Projects = () => {
                     <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                         <h3 className='text-2xl text-white tracking-wider text-center'>Toxicity Detection in Online Games</h3>
                         <p className='pb-4 pt-2 text-white text-center'>Transformers</p>
-                        <Link href='/'>
+                        <Link href='/toxicityproject'>
                             <p className='text-center py-3 rounded-lg bg-gray-900 text-white font-bold text-lg cursor-pointer'>More Info</p>
                         </Link>
                     </div>
