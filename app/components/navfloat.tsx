@@ -21,7 +21,7 @@ const Navfloat = () => {
     )
 }
 
-const SideBarIcon = ({ icon, text = 'tooltip' }) => (
+const SideBarIcon = ({ icon, text = 'tooltip' }:{icon:any,text:any}) => (
     <div className='sidebar-icon group'>
         {icon}
         
