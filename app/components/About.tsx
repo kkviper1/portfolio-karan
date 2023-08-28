@@ -7,7 +7,7 @@ const About = () => {
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest'>About</p>
                 <h2 className='py-4'>Who I am</h2>
-                <p className='py-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className='py-2'>Hi, My name is Karan Khanna. I am currently a student at George Brown College, completing my course Applied A.I Solutionss Development. If I had to describe myself in three words, it would be passionate, curious and hardworking. I am extremely passionate about Machine Learning and Artificial Intelligence, I am always curious when it comes to the new tech and research into ML and AI, and I always work hard to create the best projects that I am capable of creating. My technical skills include Python, SQL, Data Analysis, Machine Learning, Deep Learning, Java, ReactJS and much more. </p>
             </div>
 
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-800 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>

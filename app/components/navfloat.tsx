@@ -15,7 +15,7 @@ const Navfloat = () => {
                 <hr/>
                 <Link href='/#about'><SideBarIcon icon={<FcAbout size='32' />} text='About Me' /></Link>
                 <Link href='/#projects'><SideBarIcon icon={<GoProject size='32'/>} text='Projects'/></Link>
-                <SideBarIcon icon={<SiBookstack size='32'/>} text='Publications' />
+                <Link href="/#publications"><SideBarIcon icon={<SiBookstack size='32'/>} text='Publications' /></Link> 
             </div>
         </div>
     )

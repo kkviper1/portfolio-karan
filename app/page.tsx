@@ -4,6 +4,7 @@ import Navfloat from './components/navfloat'
 import Main from './components/Main'
 import About from './components/About'
 import Projects from './components/Projects'
+import Publications from './components/Publications'
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
     <Main/>
     <About/>
     <Projects/>
+    <Publications/>
    </div>
   )
 }
