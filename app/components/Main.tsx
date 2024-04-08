@@ -10,10 +10,6 @@ const Main = () => {
             <div>
             <p className='uppercase text-sm tracking-widest text-white'>Welcome to my Portfolio</p>
             <h1>Karan Khanna</h1>
-            <p className='py-4 max-w-[70%] m-auto'>
-            Hey, My name is Karan Khanna and I am a student at George Brown College studying Applied A.I Solutions Development. My technical skills include Python, Machine Learning, Deep Learning, Java, ReactJS and much more.
-            Please do explore my portfolio to learn more about me and my projects.
-            </p>
             <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
               <div className='rounded-full shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                 <Link href="https://www.linkedin.com/in/karan-khanna-74191185/" >
