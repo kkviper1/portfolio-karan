@@ -4,9 +4,9 @@ import {SiBookstack} from 'react-icons/si'
 import {GoProject} from 'react-icons/go'
 import {FaHome} from 'react-icons/fa'
 import Link from 'next/link'
-import { Collapse } from 'flowbite-react';
-import type { CollapseOptions, CollapseInterface } from 'flowbite-react';
-import type { InstanceOptions } from 'flowbite-react';
+import { Collapse } from 'flowbite';
+import type { CollapseOptions, CollapseInterface } from 'flowbite';
+import type { InstanceOptions } from 'flowbite';
 
 
 
