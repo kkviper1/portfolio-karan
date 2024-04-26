@@ -9,7 +9,7 @@ import Publications from './components/Publications'
 
 export default function Home() {
   return (
-    <div>
+    <div className='snap-y snap-mandatory'>
    <head>
     <title>Karan Khanna | Portfolio </title>
    </head>

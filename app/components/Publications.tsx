@@ -5,7 +5,7 @@ import capsnet from '../../public/projects/capsnet.png'
 
 const Publications = () => {
   return (
-    <div id='publications' className='w-full'>
+    <div id='publications' className='w-full snap-center bg-[#3b385a] text-[#ffffff]'>
     <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='text-xl tracking-widest uppercase'>Publications</p>
         <h2 className='py-4'>{"What I've Reasearched"}</h2>
