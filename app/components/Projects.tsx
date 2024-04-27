@@ -11,7 +11,7 @@ import Link from 'next/link'
 const Projects = () => {
   return (
     <div id='projects' className='w-full snap-center bg-[#3b385a] text-[#ffffff]'>
-        <div className='max-w-[1240px] mx-auto px-2 py-16'>
+        <div className='max-w-[1240px] mx-auto px-2 py-24'>
             <p className='text-xl tracking-widest uppercase'>Projects</p>
             <h2 className='py-4'>{"What I've Built"}</h2>
             <div className='grid md:grid-cols-2 gap-8'>
@@ -29,7 +29,7 @@ const Projects = () => {
 
                 <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-800 rounded-xl p-4 group hover:bg-gradient-to-r from-[#080808] to-[#1d192e]'>
                     <Image className='rounded-xl group-hover:opacity-10' src={inference} alt='/' />
-                    <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
+                    <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full'>
                         <h3 className='text-2xl text-white tracking-wider text-center'>Implementing LORA framework on a Merged Diffusion Model for Image Synthesis</h3>
                         <p className='pb-4 pt-2 text-white text-center'>Stable Diffusion/LoRA</p>
                         <Link href='/loraproject'>
