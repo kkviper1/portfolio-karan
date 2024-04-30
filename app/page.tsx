@@ -5,7 +5,7 @@ import Main from './components/Main'
 import About from './components/About'
 import Projects from './components/Projects'
 import Publications from './components/Publications'
-import { Analytics } from "@vercel/analytics/react"
+
 
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
     <About/>
     <Projects/>
     <Publications/>
-    <Analytics/>
+
    </div>
   )
 }
