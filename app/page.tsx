@@ -3,6 +3,7 @@ import Main from "./components/Main"
 import About from "./components/About"
 import Projects from "./components/Projects"
 import Publications from "./components/Publications"
+import ScrollButtons from "./components/scroll-buttons"
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <title>Karan Khanna | Portfolio </title>
       </head>
       <Navfloat />
+      <ScrollButtons />
       <Main />
       <About />
       <Projects />

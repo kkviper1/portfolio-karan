@@ -51,9 +51,7 @@ html {
     @apply cursor-pointer
   }
 
-  button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-white to-gray-600
-  }
+ 
 }
 
 @layer components {
